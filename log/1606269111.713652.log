@@ -1,0 +1,2 @@
+WARNING:tensorflow:From /Users/zhanghua/Desktop/Texture-Synthesis/src/synthesize.py:128: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+

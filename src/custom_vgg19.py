@@ -27,9 +27,9 @@ class Vgg19:
                 print("Please download the .npy file from: %s" % weights_url)
                 print("The file should be placed as '%s'" % weights_name)
                 exit(0)
-
+        # print(vgg19_npy_path)
         if data is None:
-            data = np.load(vgg19_npy_path, encoding='latin1')
+            data = np.load(vgg19_npy_path, encoding='latin1', allow_pickle=True)
             self.data_dict = data.item()
             print("VGG19 weights loaded")
 

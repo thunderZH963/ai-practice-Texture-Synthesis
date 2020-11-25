@@ -129,6 +129,7 @@ with tf.Session() as sess:
     parse_args()
 
     # Initialize and process art image to be used for our texture
+
     texture, image_shape = utils.load_image(TEXTURE_PATH)
     image_shape = [1] + image_shape
     texture = texture.reshape(image_shape).astype(np.float32)

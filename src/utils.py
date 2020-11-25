@@ -3,7 +3,8 @@ import os
 import skimage
 import skimage.io
 import skimage.transform
-from scipy.misc import toimage
+#from scipy.misc import toimage
+from PIL import Image
 
 
 # Return a numpy array of an image specified by its path
@@ -48,6 +49,6 @@ def render_img(session, x, save=False, out_path=None):
     img = np.clip(session.run(x), 0, 1)
 
     if save:
-        toimage(np.reshape(img, shape[1:])).save(out_path)
+        Image.fromarray(np.uint8(np.reshape(img, shape[1:]))).save(out_path)
     else:
-        toimage(np.reshape(img, shape[1:])).show()
+        Image.fromarray(np.uint8(np.reshape(img, shape[1:]))).show()

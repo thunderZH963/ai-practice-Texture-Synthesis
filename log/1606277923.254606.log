@@ -1,0 +1,23 @@
+WARNING:tensorflow:From src/synthesize.py:128: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From src/synthesize.py:138: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From /Users/zhanghua/Desktop/Texture-Synthesis/src/custom_vgg19.py:97: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /Users/zhanghua/Desktop/Texture-Synthesis/src/custom_vgg19.py:89: The name tf.nn.avg_pool is deprecated. Please use tf.nn.avg_pool2d instead.
+
+WARNING:tensorflow:From src/synthesize.py:86: The name tf.assert_equal is deprecated. Please use tf.compat.v1.assert_equal instead.
+
+WARNING:tensorflow:From src/synthesize.py:175: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1205: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO:root:Initializing variables and beginning training..
+WARNING:tensorflow:From src/synthesize.py:182: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+INFO:root:Epoch 0000 | Loss 1.275
+INFO:root:Epoch 0100 | Loss 0.054
+INFO:root:Epoch 0200 | Loss 0.008
+INFO:root:Training complete. The session took 645.46 seconds to complete.
+INFO:root:Rendering final image and closing TensorFlow session..

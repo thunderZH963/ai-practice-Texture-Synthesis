@@ -1,0 +1,4 @@
+WARNING:tensorflow:From src/synthesize.py:128: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From src/synthesize.py:138: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
